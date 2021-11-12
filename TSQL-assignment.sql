@@ -11,7 +11,7 @@ sales.orders
 WHERE
 order_date between @order_date1 and @order_date2;
 
-select * from test_function('2017','2018')
+select * from test2('2017','2018')
 
 
 CREATE TABLE sales.customer_audits(
