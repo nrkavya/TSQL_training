@@ -1,4 +1,4 @@
-create FUNCTION test_function (
+create FUNCTION test2(
 @order_date1 Date, @order_date2 Date
 )
 RETURNS TABLE
